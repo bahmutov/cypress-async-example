@@ -5,11 +5,23 @@ async function render() {
     usersTableBody.innerHTML = `<tr data-cy="zero-users">No users</td>`
   } else {
     usersTableBody.innerHTML = users
-      .map((user) => {
-        return `<tr><td>${JSON.stringify(user)}</td></tr>`
+      .map((user, k) => {
+        return `<tr>
+          <td>${k + 1}</td>
+          <td><input type="radio" id="user${k}" name="contact" value="${
+          user.id
+        }" /></td>
+          <td>${JSON.stringify(user)}</td>
+        </tr>`
       })
       .join('\n')
   }
+
+  document
+    .querySelectorAll('input[name=contact]')
+    .addEventListener('change', (e) => {
+      e.preventDefault()
+    })
 }
 
 render()
