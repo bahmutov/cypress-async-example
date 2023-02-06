@@ -1,0 +1,31 @@
+{
+  "name": "cypress-async-example",
+  "version": "1.0.0",
+  "description": "Preparing the app data in Cypress without needing await async",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "start": "json-server --port 3300 --static public data.json",
+    "watch": "npm run start -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/cypress-async-example.git"
+  },
+  "keywords": [
+    "cypress-example"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/cypress-async-example/issues"
+  },
+  "homepage": "https://github.com/bahmutov/cypress-async-example#readme",
+  "devDependencies": {
+    "cypress": "^12.5.1",
+    "prettier": "^2.8.3"
+  },
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}
