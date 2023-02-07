@@ -15,7 +15,9 @@ async function renderTodos() {
     await fetch(`/todos/?userId=${state.userId}`, { method: 'GET' })
   ).json()
   if (!todos.length) {
-    todosTableBody.innerHTML = `<tr data-cy="zero-todos">No todos</td>`
+    todosTableBody.innerHTML = `<tr data-cy="zero-todos">
+      <td colspan="3" style="text-align:center;">No todos</td>
+    </tr>`
   } else {
     todosTableBody.innerHTML = todos
       .map((todo, k) => {

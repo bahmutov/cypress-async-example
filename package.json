@@ -6,7 +6,8 @@
   "scripts": {
     "test": "cypress run",
     "start": "json-server --port 3300 --static public data.json",
-    "watch": "npm run start -- --watch"
+    "watch": "npm run start -- --watch",
+    "reset": "cp clean-data.json data.json"
   },
   "repository": {
     "type": "git",

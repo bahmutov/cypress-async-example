@@ -1,160 +1,33 @@
 {
   "todos": [
     {
-      "title": "todo 77",
-      "userId": "30",
+      "title": "one",
+      "userId": "2",
       "id": 1
     },
     {
-      "title": "todo 85",
-      "userId": "31",
+      "title": "second",
+      "userId": "2",
       "id": 2
     },
     {
-      "title": "todo 25",
-      "userId": "32",
+      "title": "third",
+      "userId": "2",
       "id": 3
-    },
-    {
-      "title": "todo 81",
-      "userId": "33",
-      "id": 4
     }
   ],
   "users": [
     {
+      "name": "Joe",
       "id": 1
     },
     {
+      "name": "Anna",
       "id": 2
     },
     {
+      "name": "Mary",
       "id": 3
-    },
-    {
-      "id": 4
-    },
-    {
-      "id": 5
-    },
-    {
-      "id": 6
-    },
-    {
-      "name": "Joe",
-      "id": 7
-    },
-    {
-      "name": "Joe",
-      "id": 8
-    },
-    {
-      "name": "Joe",
-      "id": 9
-    },
-    {
-      "name": "Joe",
-      "id": 10
-    },
-    {
-      "name": "Joe",
-      "id": 11
-    },
-    {
-      "name": "Joe",
-      "id": 12
-    },
-    {
-      "name": "Joe",
-      "id": 13
-    },
-    {
-      "name": "Joe",
-      "id": 14
-    },
-    {
-      "name": "Joe",
-      "id": 15
-    },
-    {
-      "name": "Joe",
-      "id": 16
-    },
-    {
-      "name": "Joe-5656",
-      "id": 17
-    },
-    {
-      "name": "Joe-4078",
-      "id": 18
-    },
-    {
-      "name": "Joe-4078r",
-      "id": 19
-    },
-    {
-      "name": "Joe-6370",
-      "id": 20
-    },
-    {
-      "name": "Joe-2672",
-      "id": 21
-    },
-    {
-      "name": "Joe-7792",
-      "id": 22
-    },
-    {
-      "name": "Joe-9878",
-      "id": 23
-    },
-    {
-      "name": "Joe-8643",
-      "id": 24
-    },
-    {
-      "name": "Joe-2289",
-      "id": 25
-    },
-    {
-      "name": "Joe-8152",
-      "id": 26
-    },
-    {
-      "name": "Joe-7766",
-      "id": 27
-    },
-    {
-      "name": "Joe-127",
-      "id": 28
-    },
-    {
-      "name": "Joe-7891",
-      "id": 29
-    },
-    {
-      "name": "Joe-821",
-      "id": 30
-    },
-    {
-      "name": "Joe-3742",
-      "id": 31
-    },
-    {
-      "name": "Joe-2346",
-      "id": 32
-    },
-    {
-      "name": "Joe-7567",
-      "id": 33
-    },
-    {
-      "name": "Joe-280",
-      "id": 34
-    },
-    {
-      "name": "Joe-3786",
-      "id": 35
     }
   ]
 }
