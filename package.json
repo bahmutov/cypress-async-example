@@ -2,6 +2,7 @@
   "name": "cypress-async-example",
   "version": "1.0.0",
   "description": "Preparing the app data in Cypress without needing await async",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "cypress run",
