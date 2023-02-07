@@ -33,7 +33,9 @@ async function renderTodos() {
 async function renderUsers() {
   const users = await (await fetch('/users', { method: 'GET' })).json()
   if (!users.length) {
-    usersTableBody.innerHTML = `<tr data-cy="zero-users">No users</td>`
+    usersTableBody.innerHTML = `<tr data-cy="zero-users">
+      <td colspan="3" style="text-align:center;">No users</td>
+    </td>`
   } else {
     usersTableBody.innerHTML = users
       .map((user, k) => {

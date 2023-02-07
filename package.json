@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress run",
-    "start": "json-server --port 3300 --static public data.json",
+    "start": "json-server --port 3300 --static public data.json --middlewares ./node_modules/json-server-reset",
     "watch": "npm run start -- --watch",
     "reset": "cp clean-data.json data.json"
   },
@@ -27,6 +27,7 @@
     "prettier": "^2.8.3"
   },
   "dependencies": {
-    "json-server": "^0.17.1"
+    "json-server": "^0.17.1",
+    "json-server-reset": "^1.6.0"
   }
 }
